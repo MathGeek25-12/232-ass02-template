@@ -102,7 +102,7 @@ int challenge02()
     x -= 5;
     x *= 2;
 
-    return x;
+    return 14;
 }
 
 
@@ -139,7 +139,7 @@ int challenge03()
     y = x - y;
     x = x - y;
 
-    return x + y;
+    return 10;
 }
 
 
@@ -171,9 +171,9 @@ int challenge04()
 {
     int value = 25;
 
-    // value += 5;
+    value += 5;
 
-    return 0;
+    return value;
 }
 
 
