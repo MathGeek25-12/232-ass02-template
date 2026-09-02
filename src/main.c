@@ -20,8 +20,28 @@ int challenge12();
 int challenge13();
 int challenge14();
 
+int factorial(int a)
+{
+	int result = 0;
+	if(a >1)
+		return factorial(a-1) * a;
+	else 
+		return 1;
+}
+
+
 int main()
 {
+
+	int result = factorial(5);
+
+	int x = 5;
+	float z = 3.61f;
+	for (int i = 0; i < 5; i++)
+	{
+		printf("%d", i);
+		/*body*/
+	}
 
 	challenge01();
 	challenge02();
