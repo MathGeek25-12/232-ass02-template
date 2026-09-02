@@ -60,6 +60,7 @@
 //     return <your observed value>;
 // ============================================================
 
+
 int challenge01()
 {
     int x = 7;
@@ -69,7 +70,6 @@ int challenge01()
 
     return z;
 }
-
 
 // ============================================================
 // CHALLENGE 02
@@ -98,11 +98,11 @@ int challenge02()
 {
     int x = 4;
 
-    // x = x * 3;
-    // x -= 5;
-    // x *= 2;
+    x = x * 3;
+    x -= 5;
+    x *= 2;
 
-    return 0;
+    return x;
 }
 
 
@@ -135,11 +135,11 @@ int challenge03()
     int x = 3;
     int y = 7;
 
-    // x = x + y;
-    // y = x - y;
-    // x = x - y;
+    x = x + y;
+    y = x - y;
+    x = x - y;
 
-    return 0;
+    return x + y;
 }
 
 
