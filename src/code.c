@@ -252,10 +252,10 @@ int challenge06()
     int a = 7;
     int b = 2;
 
-    // int result1 = a / b;
-    // double result2 = (double)(a) / b;
+    int result1 = a / b;
+    double result2 = (double)(a) / b;
 
-    return 0;
+    return (int)(result1 * 10 + result2);
 }
 
 
