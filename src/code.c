@@ -394,10 +394,10 @@ int challenge09()
 {
     int values[] = {11, 22, 33, 44};
 
-    // int *p = values;
-    // int *q = p + 2;
+    int *p = values;
+    int *q = p + 2;
 
-    return 0;
+    return *q;
 }
 
 
