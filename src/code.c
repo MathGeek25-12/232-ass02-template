@@ -592,17 +592,17 @@ int mystery(int n)
     if (n <= 1)
         return 1;
 
-    // int previous = mystery(n - 1);
-    // return (previous << 1) ^ n;
+    int previous = mystery(n - 1);
+    return (previous << 1) ^ n;
 
     return 0;
 }
 
 int challenge13()
 {
-    // int result = mystery(4);
+    int result = mystery(4);
 
-    return 0;
+    return 2;
 }
 
 
