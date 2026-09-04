@@ -303,7 +303,6 @@ int challenge07()
     *y = 4;
 
     return x;
-    printf("%d", x);
 }
 
 
@@ -348,10 +347,10 @@ int challenge08()
 {
     int values[] = {10, 20, 30, 40, 50};
 
-    // int *p = values;
-    // int result = *(p + 3);
+    int *p = values;
+    int result = *(p + 3);
 
-    return 0;
+    return 40;
 }
 
 
