@@ -674,5 +674,5 @@ int challenge14()
 
     int result = transformData(data, 3);
 
-    return 0;
+    return result;
 }
