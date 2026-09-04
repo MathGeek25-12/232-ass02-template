@@ -447,10 +447,10 @@ int challenge10()
     int x = 5;
     int *p = &x;
 
-    // int **pp = &p;
-    // **pp = 42;
+    int **pp = &p;
+    **pp = 42;
 
-    return 0;
+    return x;
 }
 
 
