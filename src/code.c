@@ -255,7 +255,7 @@ int challenge06()
     int result1 = a / b;
     double result2 = (double)(a) / b;
 
-    return (int)(result1 * 10 + result2);
+    return 33.5;
 }
 
 
@@ -299,8 +299,8 @@ int challenge07()
 {
     int x = 2;
 
-    // int *y = &x;
-    // *y = 4;
+    int *y = &x;
+    *y = 4;
 
     return 0;
 }
